@@ -1,0 +1,21 @@
+{
+  "name": "hotline---themes",
+  "displayName": "hotline - themes",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Hotline - Themes",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Hotline - Themes-color-theme.json"
+      }
+    ]
+  }
+}

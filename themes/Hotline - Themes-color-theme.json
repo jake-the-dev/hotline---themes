@@ -8,8 +8,12 @@
     // Base Colors.
     // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_base-colors
     // Foreground color for description text providing additional information, for example for a label.
-    "descriptionForeground": "#A599E9",
-    "selection.background": "#B362FF",
+    "descriptionForeground": "#5DD8E6",
+    "selection.background": "#FDE80650",
+    "window.activeBorder": "#FDE806",
+    "window.inactiveBorder": "#5DD8E6",
+    "focusBorder": "#111111",
+    "foreground": "#FF9D00",
 
     // ~~~~~~~ ACTIVITY BAR ~~~~~~~
     // The sidest of bars
@@ -176,8 +180,8 @@
     // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_debug
     "debugToolBar.background": "#1E1E3F",
     // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-widget-colors
-    "debugExceptionWidget.background": "#1E1E3F",
-    "debugExceptionWidget.border": "#A599E9",
+    "debugExceptionWidget.background": "#E76057f5",
+    "debugExceptionWidget.border": "#E76057f5",
 
     // The editor marker view shows when navigating to errors and warnings in the editor (Go to Next Error or Warning command).
     "editorMarkerNavigation.background": "#3B536433",
@@ -193,23 +197,21 @@
     "extensionButton.prominentBackground": "#5D37F0",
     "extensionButton.prominentForeground": "#FFFFFF",
     "extensionButton.prominentHoverBackground": "#FF9D00",
-    "focusBorder": "#1E1E3F",
-    "foreground": "#A599E9",
 
     // Input Control.
     // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_input-control
-    "input.background": "#2D2B55",
-    "input.border": "#1E1E3F",
-    "input.foreground": "#FAD000",
-    "input.placeholderForeground": "#A599E9",
-    "inputOption.activeBorder": "#1E1E3F",
+    "input.background": "#111111",
+    "input.border": "#5DD8E640",
+    "input.foreground": "#FDE806",
+    "input.placeholderForeground": "#808080",
+    "inputOption.activeBorder": "#F06BAA",
     "inputValidation.errorBackground": "#2D2B55",
-    "inputValidation.errorBorder": "#FAD000",
+    "inputValidation.errorBorder": "#FDE806",
     "inputValidation.infoBackground": "#2D2B55",
     "inputValidation.infoBorder": "#2D2B55",
     "inputValidation.warningBackground": "#2D2B55",
-    "inputValidation.warningBorder": "#FAD000",
-    "inputOption.activeBackground": "#5D37F0",
+    "inputValidation.warningBorder": "#FDE806",
+    "inputOption.activeBackground": "#F06BAA",
 
     // Lists and Trees.
     // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_lists-and-trees
@@ -245,11 +247,11 @@
 
     // Panel.
     // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_panel-colors
-    "panel.background": "#1E1E3F",
-    "panel.border": "#FAD000",
-    "panelTitle.activeBorder": "#FAD000",
-    "panelTitle.activeForeground": "#FAD000",
-    "panelTitle.inactiveForeground": "#A599E9",
+    "panel.background": "#111111",
+    "panel.border": "#FDE806",
+    "panelTitle.activeBorder": "#FDE806",
+    "panelTitle.activeForeground": "#FDE806",
+    "panelTitle.inactiveForeground": "#FFFFFF",
 
     // Peek View Colors.
     // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_peek-view-colors
@@ -269,8 +271,8 @@
 
     // Quick Picker.
     // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_quick-picker
-    "pickerGroup.border": "#1E1E3F",
-    "pickerGroup.foreground": "#A599E9",
+    "pickerGroup.border": "#111111",
+    "pickerGroup.foreground": "#FDE806",
 
     // Progress Bar.
     // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_progress-bar
@@ -339,12 +341,12 @@
 
     // Text Colors — Colors inside a text document, such as the welcome page.
     // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_text-colors
-    "textBlockQuote.background": "#1E1E3F",
-    "textBlockQuote.border": "#6943FF",
-    "textCodeBlock.background": "#1E1E3F",
-    "textLink.activeForeground": "#B362FF",
-    "textLink.foreground": "#B362FF",
-    "textPreformat.foreground": "#FAD000",
+    "textBlockQuote.background": "#111111",
+    "textBlockQuote.border": "#FF7200",
+    "textCodeBlock.background": "#111111",
+    "textLink.activeForeground": "#FF7200",
+    "textLink.foreground": "#F06BAA",
+    "textPreformat.foreground": "#FDE806",
     "textSeparator.foreground": "#1E1E3F",
 
     "walkThrough.embeddedEditorBackground": "#1E1E3F",
@@ -379,7 +381,7 @@
     "settings.modifiedItemIndicator": "#FAD000",
 
     // Customizable menu.
-    "menu.separatorBackground": "#A599E9",
+    "menu.separatorBackground": "#FF7200",
 
     // Tab stops.
     "editor.snippetTabstopHighlightBackground": "#6943ff62",
@@ -394,11 +396,6 @@
 
     // Border color of active sashes.
     "sash.hoverBorder": "#FAD000"
-
-    // TODO: Colors to be added.
-    // "inputValidation.infoForeground": "#FAD000", // Input validation foreground color for information severity.
-    // "inputValidation.warningForeground": "#00000000", // Input validation foreground color for warning severity.
-    // "inputValidation.errorForeground": "#EC3A37F5", // Input validation foreground color for error severity.
   },
   // Token Colors are heavily inspired by several themes
   // Including but not limited to Material Palenight, Cobalt

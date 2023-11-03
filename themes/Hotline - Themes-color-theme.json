@@ -26,7 +26,7 @@
     "activityBar.dropBorder": "#111111",
     "activityBar.foreground": "#FDE806",
     "activityBar.inactiveForeground": "#ffffffcc",
-    "activityBarBadge.background": "#5DD8E6",
+    "activityBarBadge.background": "#FDE806",
     "activityBarBadge.foreground": "#111111",
     "activityBar.activeBorder": "#F06BAA",
     "activityBar.activeBackground": "#111111",
@@ -34,7 +34,7 @@
     // ~~~~~~~ SIDEBAR ~~~~~~~
     // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_side-bar
     "sideBar.background": "#111111",
-    "sideBar.border": "#F06BAA",
+    "sideBar.border": "#ffffff05",
     "sideBar.foreground": "#ffffffcc",
     "sideBarTitle.foreground": "#ffffffcc",
     "sideBarSectionHeader.background": "#111111",
@@ -70,7 +70,6 @@
     "checkbox.background": "#111111",
     "checkbox.foreground": "#5DD8E6",
     "checkbox.border": "#5DD8E6",
-    
 
     // Contrast.
     // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_contrast-colors
@@ -91,7 +90,7 @@
     "editorGutter.addedBackground": "#77E8B9",
     "editorGutter.deletedBackground": "#E76057",
     "editorGutter.modifiedBackground": "#F06BAA",
-    "editorLineNumber.foreground": "#ffffffcc", // Color of editor line numbers.
+    "editorLineNumber.foreground": "#ffffff30", // Color of editor line numbers.
     "editorLineNumber.activeForeground": "#fde806",
 
     // --- Editor Cursor ---
@@ -196,8 +195,8 @@
     "editorMarkerNavigationWarning.background": "#FDE806",
 
     // To see the editor white spaces, enable Toggle Render Whitespace.
-    "editorWhitespace.foreground": "#E76057f5",
-    "errorForeground": "#E76057f5",
+    // "editorWhitespace.foreground": "#E76057f5",
+    // "errorForeground": "#E76057f5",
 
     // Extensions.
     // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_extensions
@@ -261,7 +260,7 @@
     // Panel.
     // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_panel-colors
     "panel.background": "#111111",
-    "panel.border": "#F06BAA",
+    "panel.border": "#ffffff05",
     "panelTitle.activeBorder": "#FDE806",
     "panelTitle.activeForeground": "#5DD8E6",
     "panelTitle.inactiveForeground": "#FFFFFF",
@@ -269,8 +268,8 @@
     // Integrated Terminal Colors.
     // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_integrated-terminal-colors
     "terminal.background": "#111111",
-    "terminal.foreground": "#FDE806",
-    "terminal.border": "#FDE806",
+    "terminal.foreground": "#ffffffcc",
+    "terminal.border": "#ffffff10",
     // "terminal.selectionBackground": "#111111",
     "terminalCursor.background": "#F06BAA",
     "terminalCursor.foreground": "#FDE806",
@@ -397,7 +396,6 @@
     // "settings.focusedRowBackground": "#111111",
     // "settings.focusedRowBorder": "#FDE806",
 
-
     // Customizable menu.
     "menu.separatorBackground": "#FF7200",
 
@@ -430,7 +428,7 @@
       "name": "[Entity] — The main Entity color",
       "scope": "entity",
       "settings": {
-        "foreground": "#e7c418"
+        "foreground": "#FDE806"
       }
     },
     {
@@ -444,7 +442,7 @@
       "name": "[Keyword] — The main color for Keyword",
       "scope": ["keyword, storage.type.class.js"],
       "settings": {
-        "foreground": "#FF9D00"
+        "foreground": "#FDE806"
       }
     },
     {
@@ -511,7 +509,7 @@
       "name": "[String]",
       "scope": ["string", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#A5FF90"
+        "foreground": "#77E8B9"
       }
     },
     {
@@ -532,7 +530,7 @@
       "name": "[Support] Function Colors",
       "scope": "support.function",
       "settings": {
-        "foreground": "#FF9D00"
+        "foreground": "#FDE806"
       }
     },
     {
@@ -806,7 +804,7 @@
         "keyword.operator"
       ],
       "settings": {
-        "foreground": "#FF9D00"
+        "foreground": "#F06BAA" //todo
       }
     },
     {
@@ -868,7 +866,7 @@
         "variable.other.object.js"
       ],
       "settings": {
-        "foreground": "#9EFFFF"
+        "foreground": "#5DD8E6"
       }
     },
     {
@@ -1368,7 +1366,14 @@
       "name": "[RUBY] - Special Methods",
       "scope": "keyword.other.special-method.ruby",
       "settings": {
-        "foreground": "#FFEE80"
+        "foreground": "#FDE806"
+      }
+    },
+    {
+      "name": "[RUBY] - Other",
+      "scope": "support.function.core.ruby",
+      "settings": {
+        "foreground": "#77E8B9"
       }
     },
     {

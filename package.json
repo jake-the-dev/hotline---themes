@@ -1,8 +1,15 @@
 {
+  "publisher": "jake-the-dev",
   "name": "hotline---themes",
   "displayName": "Hotline Themes",
   "description": "💛🩷🩵🖤 - bright af theme",
   "version": "0.0.1",
+  "author": {
+    "name": "Jake Webster",
+    "email": "jakepeterwebster@gmail.com",
+    "url": "https://github.com/jake-the-dev"
+  },
+  "license": "MIT",
   "repository": {
 		"type": "git",
 		"url": "https://github.com/jake-the-dev/hotline---themes"

@@ -177,7 +177,7 @@
 
     // Debug.
     // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_debug
-    "debugToolBar.background": "#3cff00",
+    "debugToolBar.background": "#111111",
     // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-widget-colors
     "debugExceptionWidget.background": "#E76057f5",
     "debugExceptionWidget.border": "#E76057f5",

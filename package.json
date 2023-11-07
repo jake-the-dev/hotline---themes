@@ -3,7 +3,7 @@
   "name": "hotline---themes",
   "displayName": "Hotline - Themes",
   "description": "💛🩷🩵🖤 - bright af theme",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": {
     "name": "Jake Webster",
     "email": "jakepeterwebster@gmail.com",
@@ -11,12 +11,12 @@
   },
   "license": "MIT",
   "repository": {
-		"type": "git",
-		"url": "https://github.com/jake-the-dev/hotline---themes"
-	},
-	"bugs": {
-		"url": "https://github.com/jake-the-dev/hotline---themes/issues"
-	},
+    "type": "git",
+    "url": "https://github.com/jake-the-dev/hotline---themes"
+  },
+  "bugs": {
+    "url": "https://github.com/jake-the-dev/hotline---themes/issues"
+  },
   "engines": {
     "vscode": "^1.83.0"
   },
@@ -24,14 +24,14 @@
     "Themes"
   ],
   "keywords": [
-		"neon",
-		"dark",
-		"theme",
-		"color-theme",
+    "neon",
+    "dark",
+    "theme",
+    "color-theme",
     "barbie",
     "rails",
     "hotwire"
-	],
+  ],
   "icon": "icon.png",
   "contributes": {
     "themes": [

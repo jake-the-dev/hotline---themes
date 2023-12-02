@@ -1,22 +1,26 @@
 <h1 align="center">
-  <img src="https://github.com/jake-the-dev/hotline---themes/blob/main/icon.png" alt="Hotline Themes Logo" width="150">
+  <img src="image/outline_icon.png" alt="Hotline Themes Logo" width="150">
 </h1>
 
 > Yeah, it's pretty full on.  
-> Yeah, you should try it. 
+> Yeah, you should try it.
 
 ## React
-![Screenshot](https://github.com/jake-the-dev/hotline---themes/blob/main/React.png)
+
+![react_preview](images/react_preview.png)
 
 ## Ruby on Rails
-![Screenshot](https://github.com/jake-the-dev/hotline---themes/blob/main/Ruby.png)
+
+![ruby_preview](images/ruby_preview.png)
+
+**ICONS**: <a href="https://marketplace.visualstudio.com/items?itemName=jake-the-dev.hotline---icons">Hotline Icons</a>
 
 ## Testing
 
 > This theme, while looking more like Barbie, is actually inspired by the colours used by hotwired.dev. As such this has mostly tested against Ruby on Rails.
 
 - [x] Ruby
-- [x] HAML 
+- [x] HAML
 - [x] ERB
 - [x] JS/React
 - [x] HTML
@@ -27,7 +31,7 @@
 - [x] SHELL
 
 But there's so many things I missed, so if you'd like to see any changes create an issue and I'll happily address it.
-If you find anything bright-green, sorry, that's a side-effect of figuring out how to create a theme. ^^ ticket it. 
+If you find anything bright-green, sorry, that's a side-effect of figuring out how to create a theme. ^^ ticket it.
 
 ## Usage
 
@@ -39,6 +43,7 @@ If you find anything bright-green, sorry, that's a side-effect of figuring out h
 ## Recommended Settings
 
 `settings.json`
+
 ```Ruby
 "workbench.colorTheme": "Hotline - Themes",
 "workbench.iconTheme": "hotline-wired-alt",

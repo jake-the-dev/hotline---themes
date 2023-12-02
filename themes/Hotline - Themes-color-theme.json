@@ -41,7 +41,7 @@
     "sideBarSectionHeader.foreground": "#FDE806",
     "sideBarSectionHeader.border": "#111111",
 
-    // Badge. ie. Search Results
+    // Badge. ie. search results (matches)
     // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_badge
     "badge.background": "#FDE806",
     "badge.foreground": "#111111",
@@ -96,8 +96,8 @@
     "editor.linkedEditingBackground": "#F06BAA", // HTML Matching Elements.
     // "editor.wordHighlightBackground": "#E76057", // Same words other places.
     "editor.wordHighlightStrongBackground": "#FFFFFF0D", // Background color of a symbol during write-access, for example when writing to a variable
-    "editor.findMatchBackground": "#F06BAA", // Color of the current search match.
-    "editor.findMatchHighlightBackground": "#F06BAA70", // Color of the other search matches.
+    "editor.findMatchBackground": "#F06BAA70", // Color of the current search match.
+    "editor.findMatchHighlightBackground": "#F06BAA40", // Color of the other search matches.
     "editor.findRangeHighlightBackground": "#FFFF0336", // Color the range limiting the search (Enable 'Find in Selection' in the find widget).
     "editor.hoverHighlightBackground": "#fde80680", // Changed for co-pilot suggestions. Highlight below the word for which a hover is shown.
     // "editor.lineHighlightBackground": "#E76057", // Current line of code. Background color for the highlight of line at the cursor position.

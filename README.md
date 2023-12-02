@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="image/outline_icon.png" alt="Hotline Themes Logo" width="150">
+  <img src="images/outline_icon.png" alt="Hotline Themes Logo" width="150">
 </h1>
 
 > Yeah, it's pretty full on.  

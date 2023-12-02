@@ -418,15 +418,25 @@
     // Border color of active sashes.
     "sash.hoverBorder": "#FDE806"
   },
-  // Token Colors are heavily inspired by several themes
-  // Including but not limited to Material Palenight, Cobalt
-  // theme's syntax and several custom setup via Dev scope ext.
+  
+  // ~~~~~~ SYNTAX HIGHLIGHTING ~~~~~~ //
+  "semanticTokenColors": {
+    "variable.default_library": {
+      "foreground": "#5DD8E6",
+      "fontStyle": "bold italic"
+    },
+    "namespace": {
+      "foreground": "#F06BAA",
+      "fontStyle": "bold"
+    },
+  },
   "tokenColors": [
     {
       "name": "[COMMENTS] — The main comments color",
-      "scope": ["comment", "punctuation.definition.comment"],
+      "scope": ["comment", "punctuation.definition.comment", "comment.line.number-sign.ruby"],
       "settings": {
-        "foreground": "#ffffffcc"
+        "foreground": "#ffffff70",
+        "fontStyle": "italic"
       }
     },
     {
@@ -723,7 +733,6 @@
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
         "entity.name.tag",
-        "meta.tag.other.html",
         "meta.tag.other.js",
         "meta.tag.other.tsx",
         "entity.name.tag.tsx",
@@ -1433,7 +1442,7 @@
     },
     {
       "name": "[RUBY] - Regexp",
-      "scope": ["string.regexp", "punctuation.section.regexp", "string.regexp.interpolated.ruby", ""],
+      "scope": ["string.regexp", "punctuation.section.regexp", "string.regexp.interpolated.ruby", "constant.character.escape.ruby", "string.regexp.group.ruby"],
       "settings": {
         "foreground": "#5DD8E6",
         "fontStyle": ""
@@ -1441,7 +1450,7 @@
     },
     {
       "name": "[RUBY] - Regexp punctuation",
-      "scope": ["punctuation.definition.character-class.ruby", "punctuation.section.regexp.ruby"],
+      "scope": ["punctuation.definition.character-class.ruby", "punctuation.section.regexp.ruby", "punctuation.definition.group.ruby"],
       "settings": {
         "foreground": "#FDE806",
         "fontStyle": ""
@@ -1748,11 +1757,9 @@
       "scope": [
         "modifier",
         "this",
-        "comment",
         "storage.modifier",
         "entity.other.attribute-name",
         "entity.other.attribute-name.html",
-        "punctuation.definition.comment",
         "text.html.basic entity.other",
         "entity.other.attribute-name",
         "markup.quote.markdown meta.paragraph.markdown",

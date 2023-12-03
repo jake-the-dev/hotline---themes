@@ -1540,6 +1540,14 @@
       }
     },
     {
+      "name": "[RUBY] - Instance Variable",
+      "scope": ["variable.other.readwrite.instance.ruby"],
+      "settings": {
+        "foreground": "#5DD8E6",
+        "fontStyle": "italic"
+      }
+    },
+    {
       "name": "[SHELL] - Function Keyword",
       "scope": ["storage.type.function.shell"],
       "settings": {

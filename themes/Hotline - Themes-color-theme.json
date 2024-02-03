@@ -91,7 +91,7 @@
     "editor.selectionBackground": "#fde80690", // Color of the editor selection.
     "editor.selectionForeground": "#111111",
     // "editor.inactiveSelectionBackground": "#5DD8E6", // Color of the selection in an inactive editor.
-    "editor.selectionHighlightBackground": "#111111", // Color for regions with the same content as the selection.
+    "editor.selectionHighlightBackground": "#11111190", // Color for regions with the same content as the selection.
     "editor.selectionHighlightBorder": "#fde80660",
     "editor.linkedEditingBackground": "#F06BAA", // HTML Matching Elements.
     // "editor.wordHighlightBackground": "#E76057", // Same words other places.

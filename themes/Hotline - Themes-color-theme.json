@@ -418,7 +418,7 @@
     // Border color of active sashes.
     "sash.hoverBorder": "#FDE806"
   },
-  
+
   // ~~~~~~ SYNTAX HIGHLIGHTING ~~~~~~ //
   "semanticTokenColors": {
     "variable.default_library": {
@@ -428,12 +428,16 @@
     "namespace": {
       "foreground": "#F06BAA",
       "fontStyle": "bold"
-    },
+    }
   },
   "tokenColors": [
     {
       "name": "[COMMENTS] — The main comments color",
-      "scope": ["comment", "punctuation.definition.comment", "comment.line.number-sign.ruby"],
+      "scope": [
+        "comment",
+        "punctuation.definition.comment",
+        "comment.line.number-sign.ruby"
+      ],
       "settings": {
         "foreground": "#ffffff70",
         "fontStyle": "italic"
@@ -650,7 +654,7 @@
         "support.constant.property-value.css",
         "support.function.misc.scss",
         "string.quoted.double.scss",
-        "string.quoted.single.scss",
+        "string.quoted.single.scss"
       ],
       "settings": {
         "foreground": "#5DD8E6"
@@ -658,9 +662,7 @@
     },
     {
       "name": "[TAILWIND] - Color for Support",
-      "scope": [
-        "keyword.control.at-rule.apply.tailwind",
-      ],
+      "scope": ["keyword.control.at-rule.apply.tailwind"],
       "settings": {
         "foreground": "#FDE806"
       }
@@ -671,7 +673,7 @@
         "meta.at-rule.layer.body.tailwind",
         "punctuation.definition.keyword.css",
         "punctuation.section.property-list.begin.bracket.curly.css",
-        "punctuation.section.property-list.end.bracket.curly.css",
+        "punctuation.section.property-list.end.bracket.curly.css"
       ],
       "settings": {
         "foreground": "#5DD8E6"
@@ -717,9 +719,13 @@
     },
     {
       "name": "[CSS] - unit",
-      "scope": ["keyword.other.unit.px.css","keyword.other.unit.em.css", "keyword.other.unit.percentage.css"],
+      "scope": [
+        "keyword.other.unit.px.css",
+        "keyword.other.unit.em.css",
+        "keyword.other.unit.percentage.css"
+      ],
       "settings": {
-        "foreground": "#FFFFFF",
+        "foreground": "#FFFFFF"
       }
     },
     {
@@ -871,7 +877,12 @@
     },
     {
       "name": "[JAVASCRIPT REACT] — JSX HTML Children Text",
-      "scope": ["meta.jsx.children.js","string.quoted.double.js","string.quoted.single.js","constant.numeric.decimal.js"],
+      "scope": [
+        "meta.jsx.children.js",
+        "string.quoted.double.js",
+        "string.quoted.single.js",
+        "constant.numeric.decimal.js"
+      ],
       "settings": {
         "foreground": "#FFFFFF"
       }
@@ -1351,14 +1362,25 @@
     },
     {
       "name": "[YML] — String",
-      "scope": ["string.unquoted.plain.out.yaml", "string.unquoted.plain.in.yaml", "punctuation.definition.string.begin.yaml", "string.quoted.double.yaml", "punctuation.definition.string.end.yaml", "string.quoted.single.yaml"],
+      "scope": [
+        "string.unquoted.plain.out.yaml",
+        "string.unquoted.plain.in.yaml",
+        "punctuation.definition.string.begin.yaml",
+        "string.quoted.double.yaml",
+        "punctuation.definition.string.end.yaml",
+        "string.quoted.single.yaml"
+      ],
       "settings": {
         "foreground": "#F06BAA"
       }
     },
     {
       "name": "[YML] — Integer",
-      "scope": ["constant.numeric.integer.yaml", "constant.numeric.float.yaml", "constant.numeric.integer.yaml|constant.numeric.float.yaml source.integer.decimal.yaml meta.number.range.integer.yaml"],
+      "scope": [
+        "constant.numeric.integer.yaml",
+        "constant.numeric.float.yaml",
+        "constant.numeric.integer.yaml|constant.numeric.float.yaml source.integer.decimal.yaml meta.number.range.integer.yaml"
+      ],
       "settings": {
         "foreground": "#5DD8E6"
       }
@@ -1442,7 +1464,13 @@
     },
     {
       "name": "[RUBY] - Regexp",
-      "scope": ["string.regexp", "punctuation.section.regexp", "string.regexp.interpolated.ruby", "constant.character.escape.ruby", "string.regexp.group.ruby"],
+      "scope": [
+        "string.regexp",
+        "punctuation.section.regexp",
+        "string.regexp.interpolated.ruby",
+        "constant.character.escape.ruby",
+        "string.regexp.group.ruby"
+      ],
       "settings": {
         "foreground": "#5DD8E6",
         "fontStyle": ""
@@ -1450,7 +1478,11 @@
     },
     {
       "name": "[RUBY] - Regexp punctuation",
-      "scope": ["punctuation.definition.character-class.ruby", "punctuation.section.regexp.ruby", "punctuation.definition.group.ruby"],
+      "scope": [
+        "punctuation.definition.character-class.ruby",
+        "punctuation.section.regexp.ruby",
+        "punctuation.definition.group.ruby"
+      ],
       "settings": {
         "foreground": "#FDE806",
         "fontStyle": ""
@@ -1513,7 +1545,10 @@
     },
     {
       "name": "[RUBY] - String",
-      "scope": ["punctuation.definition.string.begin.ruby", "punctuation.definition.string.end.ruby"],
+      "scope": [
+        "punctuation.definition.string.begin.ruby",
+        "punctuation.definition.string.end.ruby"
+      ],
       "settings": {
         "foreground": "#77E8B9"
       }
@@ -1527,14 +1562,25 @@
     },
     {
       "name": "[RUBY] - Other",
-      "scope": ["support.function.core.ruby", "constant.language.symbol.hashkey.ruby"],
+      "scope": [
+        "support.function.core.ruby",
+        "constant.language.symbol.hashkey.ruby"
+      ],
       "settings": {
         "foreground": "#77E8B9"
       }
     },
     {
       "name": "[RUBY] - string interpolation",
-      "scope": ["string.quoted.double.interpolated.ruby", "punctuation.definition.string.end.ruby","punctuation.definition.string.begin.ruby","constant.numeric.ruby", "constant.language.boolean.ruby", "string.unquoted.heredoc.ruby", "variable.language.self.ruby"],
+      "scope": [
+        "string.quoted.double.interpolated.ruby",
+        "punctuation.definition.string.end.ruby",
+        "punctuation.definition.string.begin.ruby",
+        "constant.numeric.ruby",
+        "constant.language.boolean.ruby",
+        "string.unquoted.heredoc.ruby",
+        "variable.language.self.ruby"
+      ],
       "settings": {
         "foreground": "#FFFFFF"
       }

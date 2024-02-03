@@ -99,7 +99,7 @@
     "editor.findMatchBackground": "#F06BAA70", // Color of the current search match.
     "editor.findMatchHighlightBackground": "#F06BAA40", // Color of the other search matches.
     "editor.findRangeHighlightBackground": "#FFFF0336", // Color the range limiting the search (Enable 'Find in Selection' in the find widget).
-    "editor.hoverHighlightBackground": "#fde80680", // Changed for co-pilot suggestions. Highlight below the word for which a hover is shown.
+    "editor.hoverHighlightBackground": "#11111190", // Changed for co-pilot suggestions. Highlight below the word for which a hover is shown.
     // "editor.lineHighlightBackground": "#E76057", // Current line of code. Background color for the highlight of line at the cursor position.
     "editor.lineHighlightBorder": "#111111",
     "editor.rangeHighlightBackground": "#111111",

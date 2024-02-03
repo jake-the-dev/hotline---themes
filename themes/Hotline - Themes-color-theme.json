@@ -300,18 +300,18 @@
 
     // Peek View Colors.
     // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_peek-view-colors
-    "peekView.border": "#FDE806",
-    "peekViewEditor.background": "#3cff00",
-    "peekViewEditor.matchHighlightBackground": "#19354900",
-    "peekViewEditorGutter.background": "#191935",
-    "peekViewResult.background": "#3cff00",
-    "peekViewResult.fileForeground": "#AAA",
+    "peekView.border": "#5DD8E6",
+    "peekViewEditor.background": "#111111",
+    "peekViewEditor.matchHighlightBackground": "#FDE80630",
+    "peekViewEditorGutter.background": "#111111",
+    "peekViewResult.background": "#111111",
+    "peekViewResult.fileForeground": "#FFFFFF",
     "peekViewResult.lineForeground": "#FFFFFF",
-    "peekViewResult.matchHighlightBackground": "#3cff00",
-    "peekViewResult.selectionBackground": "#3cff00",
+    "peekViewResult.matchHighlightBackground": "#FDE80630",
+    "peekViewResult.selectionBackground": "#FDE80640",
     "peekViewResult.selectionForeground": "#FFFFFF",
-    "peekViewTitle.background": "#1F1F41",
-    "peekViewTitleDescription.foreground": "#AAA",
+    "peekViewTitle.background": "#111111",
+    "peekViewTitleDescription.foreground": "#FFFFFF",
     "peekViewTitleLabel.foreground": "#FDE806",
 
     // Quick Picker.

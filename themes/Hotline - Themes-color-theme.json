@@ -401,8 +401,10 @@
     // "settings.focusedRowBackground": "#111111",
     // "settings.focusedRowBorder": "#FDE806",
 
-    // Customizable menu.
-    "menu.separatorBackground": "#FF7200",
+    // Menu Bar Items
+    "menu.foreground": "#FFFFFF",
+    "menu.separatorBackground": "#FDE806",
+    "menu.selectionForeground": "#FDE806",
 
     // Tab stops.
     "editor.snippetTabstopHighlightBackground": "#6943ff62",

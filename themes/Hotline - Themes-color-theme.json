@@ -422,6 +422,7 @@
   },
 
   // ~~~~~~ SYNTAX HIGHLIGHTING ~~~~~~ //
+  // colours to use: #5DD8E6 , #FDE806, #F06BAA, #E76057, #77E8B9, #C18BF4
   "semanticTokenColors": {
     "variable.default_library": {
       "foreground": "#5DD8E6",
@@ -430,8 +431,17 @@
     "namespace": {
       "foreground": "#F06BAA",
       "fontStyle": "bold"
-    }
+    },
+    "method": {
+      "foreground": "#C18BF4",
+      "fontStyle": ""
+    },
+    "class": {
+      "foreground": "#FDE806",
+      "fontStyle": ""
+    },
   },
+
   "tokenColors": [
     {
       "name": "[COMMENTS] — The main comments color",
@@ -500,7 +510,7 @@
     },
     {
       "name": "[Punctuation] — The main color for Punctuation",
-      "scope": ["punctuation", "text.html.markdown"],
+      "scope": [ "text.html.markdown"],
       "settings": {
         "foreground": "#F06BAA"
       }
@@ -537,14 +547,14 @@
       "name": "[String]",
       "scope": ["string", "punctuation.definition.string"],
       "settings": {
-        "foreground": "#77E8B9"
+        "foreground": "#ffffff"
       }
     },
     {
       "name": "[String] Template Color",
       "scope": ["string.template", "punctuation.definition.string.template"],
       "settings": {
-        "foreground": "#77E8B9"
+        "foreground": "#ffffff"
       }
     },
     {
@@ -1518,10 +1528,10 @@
       }
     },
     {
-      "name": "[RUBY] - Class",
-      "scope": "entity.name.type.class.ruby",
+      "name": "[RUBY] - Constant parameters",
+      "scope": "constant.other.symbol.hashkey.parameter.function.ruby",
       "settings": {
-        "foreground": "#F06BAA"
+        "foreground": "#77E8B9"
       }
     },
     {
@@ -1580,6 +1590,7 @@
         "punctuation.definition.string.begin.ruby",
         "constant.numeric.ruby",
         "constant.language.boolean.ruby",
+        "constant.language.symbol.ruby",
         "string.unquoted.heredoc.ruby",
         "variable.language.self.ruby"
       ],
@@ -1596,6 +1607,30 @@
       }
     },
     {
+      "name": "[RUBY] - Source Ruby",
+      "scope": ["source.ruby"],
+      "settings": {
+        "foreground": "#C18BF4"
+      }
+    },
+    {
+      "name": "[RUBY] - Source Ruby Embedded ERB",
+      "scope": ["source.ruby.embedded.erb"],
+      "settings": {
+        "foreground": "#FDE806"
+      }
+    },
+    {
+      "name": "[RUBY] - Punctuation ERB",
+      "scope": [
+        "punctuation.section.embedded.end.erb",
+        "punctuation.section.embedded.begin.erb"
+      ],
+      "settings": {
+        "foreground": "#C18BF4"
+      }
+    },
+    {
       "name": "[SHELL] - Function Keyword",
       "scope": ["storage.type.function.shell"],
       "settings": {
@@ -1608,7 +1643,6 @@
         "variable.other.special.shell",
         "punctuation.definition.variable.shell",
         "meta.expression.assignment.shell",
-        "string.quoted.double.shell",
         "variable.other.normal.shell"
       ],
       "settings": {
@@ -1647,7 +1681,7 @@
       "name": "[SQL] — Keywords",
       "scope": ["source.sql keyword.other", "support.function.mysqli.php"],
       "settings": {
-        "foreground": "#FAEFA5"
+        "foreground": "#E76057"
       }
     },
     {
